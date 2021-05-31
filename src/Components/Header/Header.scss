@@ -1,0 +1,24 @@
+
+.header{
+    background-color: #2f478f;
+    padding: 20px 30px;
+
+    &__logo{
+        display: block;
+        font-size: 16px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: 'Bebas Neue', cursive;
+        &:hover{
+            text-decoration: none;
+            color:#fff;
+        }
+
+        i{
+            display: block;
+            font-size: 50px;
+        }
+    }
+}

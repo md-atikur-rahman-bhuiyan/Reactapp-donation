@@ -1,0 +1,55 @@
+
+.subscription-panel{
+    padding: 100px 20px;
+    background: url('../../img/subscribe-bg.webp') no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+    form{
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        input{
+            padding: 20px;
+            border: 1px solid #4d4d4d;
+            color: #000;
+            width: 100%;
+            background: none;
+            border-radius: 5px;
+            padding-right: 160px;
+
+            &:focus{
+                outline: none;
+            }
+
+            &::placeholder{
+                color: #899092;
+            }
+        }
+
+        button{
+            color: #012931;
+            font-size: 30px;
+            font-weight: 300;
+            font-family: 'Bebas Neue', cursive;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            border: none;
+            background: none;
+            position: absolute;
+            right: 15px;
+            top: 11px;
+
+            &::before{
+                content: "";
+                height: 27px;
+                width: 2px;
+                background: #012931;
+                display: inline-block;
+                position: absolute;
+                left: -15px;
+                top: 8px;
+            }
+        }
+    }
+}
