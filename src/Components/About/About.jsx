@@ -15,7 +15,7 @@ const About = () => {
                     </Col>
                     <Col md={5}>
                         <div className="about-panel__content">
-                            <h2 className="panel__title">About Us</h2>
+                            <h2 className="about-panel__title">About Us</h2>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
                             </p>

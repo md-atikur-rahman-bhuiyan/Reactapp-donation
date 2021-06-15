@@ -11,7 +11,7 @@ const Contact = () => {
     return (
         <section className="contact-panel">
             <Container>
-                <h3 className="work-panel__title">Contact</h3>
+                <h3 className="contact-panel__title">Contact</h3>
                 <Row>
                     <Col md={6}>
                         <Map iframe={iframe} />

@@ -1,3 +1,10 @@
 .contact-panel{
     padding: 30px 10px;
+
+    &__title{
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        font-family: 'Bebas Neue', cursive;
+    }
 }
